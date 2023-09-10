@@ -58,6 +58,14 @@ h1 {
   border: none;
   border-radius: 8px;
 }
-.btn-reset:hover{
-  background-color: ;
+
+@media screen and (max-width: 600px) {
+  .cell {
+    width: 80px;
+    height: 80px;
+  }
+  .btn-reset {
+    width: 80px;
+    height: 80px;
+  }
 }
