@@ -1,4 +1,4 @@
-body{
+body {
   background-color: grey;
   margin: 0;
   color: white;
@@ -7,13 +7,25 @@ body{
   align-items: center;
   height: 100vh;
 }
-h1{
+h1 {
   text-align: center;
 }
-
+.wrapper {
+  display: flex;
+  background-color: rgba(47, 79, 79, 0.789);
+  gap: 1rem;
+  border-radius: 13px;
+  padding: 1rem;
+}
+.buttons-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .container {
   display: grid;
-  gap: .7rem;
+  gap: 0.7rem;
   justify-content: center;
   align-items: center;
   grid-template-columns: repeat(3, 1fr);
@@ -32,9 +44,20 @@ h1{
 .cell:hover {
   background-color: dimgrey;
 }
-.wrap{
+.wrap {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.btn-reset {
+  width: 100px;
+  height: 100px;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 8px;
+}
+.btn-reset:hover{
+  background-color: ;
 }
